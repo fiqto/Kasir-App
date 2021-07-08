@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pilihpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Pilih Pesanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_marginTop="60dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textMakanan"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#000000"
+            android:textStyle="normal|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Nasi Goreng"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textMakanan1"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttonkurang1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ff7675"
+            android:text="-" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/texttotal1"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttontambah1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0984e3"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Mie Goreng"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textMakanan2"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttonkurang2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ff7675"
+            android:text="-" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/texttotal2"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttontambah2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0984e3"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Bakso"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textMakanan3"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttonkurang3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ff7675"
+            android:text="-" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/texttotal3"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttontambah3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0984e3"
+            android:text="+" />
+
+    </LinearLayout>
+        <TextView
+            android:text="Minuman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textMimunan"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginTop="40dp"
+            android:textStyle="normal|bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Es Teh"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textMinuman1"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttonkurang4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ff7675"
+            android:text="-" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/texttotal4"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttontambah4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0984e3"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Es Jeruk"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textMinuman2"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttonkurang5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#ff7675"
+            android:text="-" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/texttotal5"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/buttontambah5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0984e3"
+            android:text="+" />
+
+    </LinearLayout>
+
+        <Button
+            android:text="Beli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btnBeli"
+            android:backgroundTint="#00b894"
+            android:layout_marginTop="60dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
